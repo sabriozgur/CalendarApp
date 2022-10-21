@@ -1,0 +1,76 @@
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Calendar {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(45, 73, 73);
+}
+
+.CalendarDay {
+  position: absolute;
+  top: 80px;
+  height: 400px;
+  width: 13%;
+  background-color: rgb(181, 216, 216);
+}
+
+.CalendarDay:nth-child(1) {
+  left: 1.5%;
+}
+
+.CalendarDay:nth-child(2) {
+  left: 15.5%;
+}
+
+.CalendarDay:nth-child(3) {
+  left: 29.5%;
+}
+
+.CalendarDay:nth-child(4) {
+  left: 43.5%;
+}
+
+.CalendarDay:nth-child(5) {
+  left: 57.5%;
+}
+.CalendarDay:nth-child(6) {
+  left: 71.5%;
+}
+
+.CalendarDay:nth-child(7) {
+  left: 85.5%;
+}
+
+.Button {
+  background-color: lightseagreen;
+  height: 50px;
+  width: 50px;
+}
+
+.PreviousWeekButton {
+  position: absolute;
+  background-color: lightseagreen;
+  height: 4%;
+  width: 4%;
+  top: 3%;
+  left: 2%;
+}
+
+.NextWeekButton {
+  position: absolute;
+  background-color: lightseagreen;
+  height: 4%;
+  width: 4%;
+  top: 3%;
+  left: 93%;
+}
+
+.CalendarDayHighlight .CalendarDay {
+  background-color: rgb(118, 143, 143);
+}
